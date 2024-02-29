@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --main-color:#4DCFE6 ;
+  --section-background-color : #AFEEFA ;
+  --dark-color:#0d515d ;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0%;
+}
+
+/* Start Signup page */
+.signup-container , .login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 150px;
+}
+
+.img-container {
+  position: relative;
+  background-color: var(--dark-color);
+  border-radius: 10px 0px 0px 10px;
+}
+
+  .signup-container .img-container img {
+    width: 346px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+.form{
+    background: var(--section-background-color);
+    padding: 15px;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.logo{
+  border-radius: 50%;
+}
+
+.welcome-txt {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background: var(--main-color);
+  padding: 1px 50px;
+  border-radius: 27px 0px 0px 27px;
+  border: 2px solid white;
+  border-right: none;
+}
+
+.signup-footer {
+  padding: 10px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.signup-container .signup-btn , .login-btn{
+  padding: 5px 28px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background: var(--main-color);
+  font-weight: bold;
+  box-shadow: 1px 2px 5px 1px #1e1d1d57;
+}
+
+.name-inputs{
+  height: 28px;
+  margin-bottom: 5px;
+}
+.name-inputs input{
+  margin-right: 2px;
+}
+
+.rest-inputs input{
+  width: 100%;
+}
+
+.signup-container input , .login-container input{
+  padding: 4px 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+}
+/* End Signup page */
+
+/*Start Login*/
+.login-container .img-container img{
+  width: 346px !important;
+  margin-bottom: 30px !important;
+  margin-top: 15px !important;
+  position: relative !important;
+  top: 40px !important;
+}
+/*End Login*/
+
+/* Start Profile Data page*/
+.profile-data-container{
+  background-color: var(--section-background-color) !important;
+  padding: 20px;
+  border-radius: 10px;
+} 
+/* End Profile Data page*/
